@@ -11,7 +11,7 @@ berdasarkan dua faktor utama: tipe tiket (Reguler atau VIP) dan status keanggota
 6. Penggunaan List: Menggunakan in untuk memeriksa validitas tipe tiket dalam list yang berisi "reguler" dan "vip".
 
 # Flowchart Program
-![Flowchart](https://github.com/fitrirmdhni22/lab2.py/blob/main/flowchartdiskonkeretapi.drawio.png?raw=true)
+![Flowchart](https://github.com/fitrirmdhni22/lab2.py/blob/main/flowchartdiskon.drawio.png?raw=true)
 
 # Kode Program Tiket
 ``` python
