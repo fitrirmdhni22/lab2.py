@@ -11,7 +11,7 @@ berdasarkan dua faktor utama: tipe tiket (Reguler atau VIP) dan status keanggota
 6. Penggunaan List: Menggunakan in untuk memeriksa validitas tipe tiket dalam list yang berisi "reguler" dan "vip".
 
 # Flowchart Program
-![Flowchart](flowchart)
+![Flowchart](https://github.com/fitrirmdhni22/lab2.py/blob/main/flowchartdiskonkeretapi.drawio.png?raw=true)
 
 # Kode Program Tiket
 ``` python
@@ -55,22 +55,10 @@ Masukkan tipe tiket (reguler/vip): reguler
 Apakah Anda memiliki kartu member? (ya/tidak): ya
 Total harga yang harus dibayar: Rp 40000
 PS C:\Users\AXIOO\Documents\laporan praktikum 3> & C:/Users/AXIOO/AppData/Local/Programs/Python/Python313/python.exe "c:/Users/AXIOO/Documents/laporan praktikum 3/lab2.py"
-Masukkan tipe tiket (reguler/vip): VIP
+Masukkan tipe tiket (reguler/vip): vip
 Apakah Anda memiliki kartu member? (ya/tidak): tidak
 Total harga yang harus dibayar: Rp 100000
-PS C:\Users\AXIOO\Documents\laporan praktikum 3>
+PS C:\Users\AXIOO\Documents\laporan praktikum 3> 
 ```
 
 # Cara Kerja Program Tiket
-1. *Mulai (Start)*: Proses dimulai.
-2. *Input tipe tiket*: Pengguna memasukkan jenis tiket yang diinginkan, yang dapat berupa tiket reguler (Reg) atau VIP.
-3. *Input status member*: Pengguna memasukkan status keanggotaannya, apakah ia adalah seorang anggota (member) atau bukan.
-4. *Pengecekan tipe tiket*:
-   - Jika tiket adalah *Reguler (Reg)*, lanjut ke langkah berikutnya.
-   - Jika tiket adalah *VIP*, juga lanjut ke langkah berikutnya.
-5. *Pengecekan status member*:
-   - Jika pengguna adalah *member* (YA), maka akan diberikan diskon sebesar 20%.
-   - Jika pengguna *bukan member* (TIDAK), maka tidak ada diskon yang diberikan.
-6. *Akhir (End)*: Proses selesai.
-
-Flowchart ini menunjukkan bahwa hanya pengguna dengan status member yang mendapatkan diskon 20%, baik untuk tiket reguler maupun VIP.
